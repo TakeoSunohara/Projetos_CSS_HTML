@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+				<meta charset="utf-8">
+				<title></title>
+</head>
+<body>
+				<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<ul>
+	<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	<div class="text">Facebook</div>
+	</li>
+	<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	<div class="text">Twitter</div>
+	</li>
+	<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+	<div class="text">Google Plus</div>
+	</li>
+	<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	<div class="text">Linkedin</div>
+	</li>
+	<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+	<div class="text">Skype</div>
+	</li>
+</ul>
+
+<style>
+				body
+{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	background: #ff0175;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+}
+ul li
+{
+	position: relative;
+	list-style: none;
+	text-align: center;
+	width: 80px;
+	cursor: pointer;
+}
+ul li .text
+{
+	position: absolute;
+	width: 0;
+	left: 50%;
+	margin-top: 10px;
+	margin-left: 0;
+	transition: 1s;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 18px;
+	color: #fff;
+}
+ul li .fa
+{
+	font-size: 2em;
+	color: #fff;
+}
+ul li:hover .text
+{
+	width: 120px;
+	margin-left: -60px;
+}
+</style>
+</body>
+</html>
